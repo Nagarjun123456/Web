@@ -1,0 +1,80 @@
+/* default styling */
+html{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* descendent selector combinators*/
+header h1{
+    font-weight: 400;
+}
+
+header {
+    display: flex;
+    justify-content:space-between;
+    margin: 0 3rem;
+    /*top bottom left right*/
+}
+
+nav {
+    width: 20rem;
+    position: relative;
+    /* we are allowed to move*/
+    top: 1rem;
+    right: 3rem
+
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+li{
+    list-style: none;
+    /* to remove dot*/
+    font-size: 1.5rem;
+}
+
+/* Class Selector */
+.showcase_img {
+    width:95vw ;
+    /* for responsive website*/
+    margin: 1rem;
+}
+
+article{
+    display: flex;
+    margin: 1.5rem;
+}
+
+.content{
+    text-align: center;
+    margin-right: 2rem;
+    padding: 1rem;
+    font-size: 1.5rem;
+}
+
+h2{
+    font-weight: 600;
+}
+
+footer{
+    background-color: black;
+    color:white;
+    height:4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+a{
+    text-decoration: none;
+    /* to remove underline*/
+    color: black;
+}
+
+a:hover {
+/* : ->pseudo class*/   
+color: brown;
+font-size: 2rem;
+}
